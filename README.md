@@ -2,7 +2,7 @@
 ![python-version](https://img.shields.io/badge/python-3.9-blue.svg)
 [![openai-version](https://img.shields.io/badge/openai-0.27.4-orange.svg)](https://openai.com/)
 [![license](https://img.shields.io/badge/License-GPL%202.0-brightgreen.svg)](LICENSE)
-[![Publish Docker image](https://github.com/n3d1117/chatgpt-telegram-bot/actions/workflows/publish.yaml/badge.svg)](https://github.com/n3d1117/chatgpt-telegram-bot/actions/workflows/publish.yaml)
+[![Publish Docker image](https://github.com/tucommenceapousser/chatgpt-telegram-bot/actions/workflows/publish.yaml/badge.svg)](https://github.com/tucommenceapousser/chatgpt-telegram-bot/actions/workflows/publish.yaml)
 
 A [Telegram bot](https://core.telegram.org/bots/api) that integrates with OpenAI's _official_ [ChatGPT](https://openai.com/blog/chatgpt/), [DALL·E](https://openai.com/product/dall-e-2) and [Whisper](https://openai.com/research/whisper) APIs to provide answers. Ready to use with minimal configuration required.
 
@@ -65,7 +65,7 @@ The following parameters are optional and can be set in the `.env` file:
 | `IMAGE_PRICES`        | A comma-separated list with 3 elements of prices for the different image sizes: `256x256`, `512x512` and `1024x1024`. Source: https://openai.com/pricing                                                                                                                                                                                                                                  | `0.016,0.018,0.02` |
 | `TRANSCRIPTION_PRICE` | USD-price for one minute of audio transcription. Source: https://openai.com/pricing                                                                                                                                                                                                                                                                                                       | `0.006`            |
 
-Check out the [Budget Manual](https://github.com/n3d1117/chatgpt-telegram-bot/discussions/184) for possible budget configurations.
+Check out the [Budget Manual](https://github.com/tucommenceapousser/chatgpt-telegram-bot/discussions/184) for possible budget configurations.
 
 #### Additional optional configuration options
 | Parameter                          | Description                                                                                                                                                                                                              | Default value                      |
@@ -97,7 +97,7 @@ Check out the [official API reference](https://platform.openai.com/docs/api-refe
 Clone the repository and navigate to the project directory:
 
 ```shell
-git clone https://github.com/n3d1117/chatgpt-telegram-bot.git
+git clone https://github.com/tucommenceapousser/chatgpt-telegram-bot.git
 cd chatgpt-telegram-bot
 ```
 
@@ -134,15 +134,15 @@ docker compose up
 ```
 
 #### Ready-to-use Docker images
-You can also use the Docker image from [Docker Hub](https://hub.docker.com/r/n3d1117/chatgpt-telegram-bot):
+You can also use the Docker image from [Docker Hub](https://hub.docker.com/r/tucommenceapousser/chatgpt-telegram-bot):
 ```shell
-docker pull n3d1117/chatgpt-telegram-bot:latest
+docker pull tucommenceapousser/chatgpt-telegram-bot:latest
 ```
 
-or using the [GitHub Container Registry](https://github.com/n3d1117/chatgpt-telegram-bot/pkgs/container/chatgpt-telegram-bot/):
+or using the [GitHub Container Registry](https://github.com/tucommenceapousser/chatgpt-telegram-bot/pkgs/container/chatgpt-telegram-bot/):
 
 ```shell
-docker pull ghcr.io/n3d1117/chatgpt-telegram-bot:latest
+docker pull ghcr.io/tucommenceapousser/chatgpt-telegram-bot:latest
 ```
 
 ## Credits
